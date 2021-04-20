@@ -1,0 +1,479 @@
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #E1E1E1;
+}
+header .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul{
+  display: flex;
+}
+header ul li{
+   list-style: none;
+   margin-right: 35px;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 4500px;
+  width: 90%;
+  margin: auto;
+}
+#Contenedor-titulo-flex{
+  display:flex;
+  justify-content: center;
+  margin: 18vh 0;
+  padding: 0;
+  width: 100%;
+}
+h1{
+  font-size: 40px;
+  color: #FFF;
+
+  margin: 0;
+}
+h2{
+  font-size: 25px;
+  color: #FFF;
+}
+.contenedor-titulo{
+  text-align: center;
+}
+header{
+  background: linear-gradient(rgba(47, 45, 45,.5), rgba(197, 191, 191, .5)), url(../imagenes/Acampar.jpg);
+  height: 100vh;
+  background-size: cover;
+
+}
+.contenedor-titulo a, #sobremi a, #blog a, #que-esperas a, #Contacto input[type="submit"]{
+  color: #000;
+  background-color: rgba(151, 134, 66, .6);
+  font-size: 15px;
+  padding: 14px 20px;
+  border-radius: 5%;
+  width: 135px;
+  text-align: center;
+  display: inline-block;
+}
+.contenedor-titulo a:hover, #sobremi a:hover, #blog a:hover, #que-esperas a:hover,  #Contacto input[type="submit"]:hover{
+  transform: scale(1.2);
+  transition: 0.9s;
+  color:#FFF;
+}
+p.logo{
+  background-color: 155, 0, 255;
+  color:#fff;
+  font-size: 25px;
+}
+nav ul li a{
+  color: #FFF;
+}
+/*Seccion sobre mi*/
+h3{
+  font-weight: lighter;
+  font-size: 55px;
+  color: #223C4D;
+  text-align: center;
+}
+.container-sobre-mi{
+  display: flex;
+  justify-content: space-around;
+}
+#sobremi .text{
+  width: 42%;
+}
+/*Seccion Servicios*/
+.container-servicios{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  max-width: 4500px;
+  width: 90%;
+  margin: auto;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.servicio{
+  width: 24%;
+  padding: 34px 30px 38px 30px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  position: relative;
+}
+.servicio h4{
+  font-size: 30px;
+  margin: 0;
+}
+.servicio p{
+  margin-bottom: 25px;
+  height: 220px;
+}
+.iconos{
+  background-color: #FFF;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  float: right;
+  box-shadow: 2px 2px 5px #333;
+}
+.adornos{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width:100%;
+  height: 50px;
+  text-align: center;
+}
+.container-servicios .colorUno{
+  background-color: #264552;
+  color: #FFF;
+  border: 1px;
+  border-color: #E5B50F ;
+  box-shadow: 2px 2px 5px #999;
+}
+.container-servicios .colorDos{
+  background-color: #3B3B3B;
+  color: #FFF;
+  box-shadow: 2px 2px 5px #999;
+}
+/*Seccion mis trabajos*/
+.container-Trabajos{
+  max-width: 4500px;
+  width: 90%;
+  margin: auto;
+}
+button.owl-prev, button.owl-next {
+    font-size: 40px !important;
+}
+.owl-nav span {
+    color: #b4aa81;
+}
+/*Seccion por que trabajar conmigo*/
+.container-trabajar{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  margin: 0;
+}
+#Por-que-trabajar-conmigo .container{
+  width: 90%;
+
+}
+#Por-que-trabajar-conmigo .items{
+  width: 30%;
+  text-align: center;
+}
+#Por-que-trabajar-conmigo li{
+  list-style: none;
+}
+#Por-que-trabajar-conmigo ul li:nth-child(2){
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+#Por-que-trabajar-conmigo ul li:nth-child(3){
+  line-height: 31px;
+}
+.iconos2{
+  width: 45px;
+  height: 45px;
+}
+/*Seccion blog*/
+.container-blog{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#blog .publicacion{
+  width: 30%;
+  box-shadow: 2px 2px 5px #999;
+}
+#blog img{
+  width: 100%;
+  height: 250px;
+  margin: 0;
+}
+#blog .contenido{
+  background: #fff;
+  padding: 20px;
+  margin-top: 0;
+  height: 370px;
+}
+#blog h4{
+  font-size: 23px;
+  margin-bottom: 15px;
+  margin:0;
+}
+#blog p{
+  color: #5A6169;
+  line-height: 24px;
+  font-size: 16px;
+}
+#blog a{
+  width: 87px;
+}
+/*Seccion que esperas*/
+#que-esperas{
+  margin-top: 50px;
+  background: linear-gradient(rgba(74, 104, 114,1), rgba(1, 1, 1, .5));
+  text-align: center;
+  padding: 20px;
+
+}
+#que-esperas h3{
+  color: #FFF;
+  font-size: 24px;
+}
+#que-esperas a{
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+/*Seccion Contacto*/
+#Contacto form{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin:auto;
+}
+input[type="text"], input[type="email"]{
+  width: 49%;
+  padding: 18px 0;
+  background: transparent;
+  font-size: 17px;
+  margin-bottom: 15px;
+  border: 0;
+  border-bottom: 1px solid #5794A8;
+}
+textarea{
+  border:0;
+  padding: 18px 0;
+  width: 100%;
+  border-bottom: 1px solid #5794A8;
+  background: transparent;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+#Contacto input[type="submit"]{
+  width: auto;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.Contacto-info img{
+  padding: 0;
+  width: 28px;
+  height: 28px;
+  vertical-align:middle;
+  margin-right:15px;
+  margin: 0;
+}
+.Contacto-info{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+/*Section Footer*/
+footer img{
+  width: 25px;
+  height: 25px;
+  margin: 0 60px;
+  transform: rotate(0);
+  transition: 0.5s;
+}
+footer img:hover{
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+footer p{
+  color: #fff;
+  margin-top: 40px;
+}
+footer{
+  background: #2f2f2f;
+  padding: 40px 0 ;
+  text-align: center;
+  margin-top: 40px;
+}
+footer .container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.whatsapp .ws {
+  width: 45px;
+  height:45px;
+}
+.whatsapp{
+  position: fixed;
+  top: 90%;
+  right: 1%;
+}
+html{
+  scroll-behavior: auto;
+}
+
+#sobre-mi, #servicios,#Mis-trabajos, #Por-que-trabajar-conmigo, #blog, #Contacto{
+  padding-top: 70px;
+}
+.img-icon{
+  display: none;
+}
+.img-icon img{
+
+}
+#iconomenu{
+  height: 25px;
+  width: 25px;
+}
+@media (max-width: 800px){
+  .img-icon{
+    display:block;
+    float: right;
+    margin-top: 30px;
+  }
+  header{
+    height: 50vh;
+  }
+  header nav{
+    position: absolute;
+    top: 83px;
+    height: 300px;
+    left: 0;
+    background: #3B3B3B;
+    width: 100%;
+    display: none;
+    text-align: center;
+  }
+  header nav ul{
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  header nav ul li{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  header nav ul li:hover{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: 0.9s;
+    background-color: rgba(151, 134, 66, .6);
+  }
+  h1{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 16px;
+  }
+  #sobremi{
+    flex-direction: column;
+  }
+  .container-sobre-mi{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #sobremi img{
+    width: 100%;
+  }
+  #sobremi .text{
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .container-servicios{
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .servicio{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 22px 56px 25px;
+  }
+  .iconos{
+        margin-top: 26px
+  }
+  h3{
+    font-size: 40px;
+  }
+  .container-trabajar{
+    flex-direction: column;
+    width: 100%;
+  }
+  #Por-que-trabajar-conmigo .items{
+    width: 100%;
+  }
+  .items ul{
+    padding: 0;
+  }
+  .container-blog {
+    flex-direction: column;
+  }
+  #blog .publicacion {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #Contacto form {
+    flex-direction: column;
+    width: 100%;
+  }
+  input[type="text"], input[type="email"] {
+    width: 100%;
+  }
+  .Contacto-info {
+    font-size: 12px;
+  }
+  footer img {
+    margin: 0 0px;
+  }
+}
+@media (min-width:800px) and (max-width:1024px){
+  header{
+    height: 70vh;
+  }
+  .container-servicios{
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .servicio{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 22px 56px 25px;
+  }
+  #blog .publicacion {
+    width: 60%;
+    margin-bottom: 15px;
+  }
+  #sobremi{
+    flex-direction: column;
+  }
+  .container-sobre-mi{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #sobremi img{
+    width: 100%;
+  }
+  #sobremi .text{
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
